@@ -28,6 +28,7 @@ body {
     font-family: var(--font-family);
     font-size: min(var(--font-size), 30px);
     text-align: center;
+    overflow-x: hidden;
 }
 
 .container {
@@ -47,7 +48,7 @@ body {
 
 .title-bar {
     display: flex;
-    width: 100%;
+    width: 100vw;
     max-height: 10%;
     justify-content: space-around;
     align-items: center;
@@ -151,7 +152,10 @@ body {
     text-align: center;
     border-radius: var(--radius);
     box-shadow: var(--box-shadow);
-    max-width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project img {
@@ -180,6 +184,11 @@ body {
     .projects-container {
         flex-direction: column;
         max-width: 100vw;
+    }
+
+    .project {
+        max-width: 500px;
+        height: 400px;
     }
 
     .project img {
@@ -211,7 +220,7 @@ body {
 
     .project, .project img {
         max-width: 100%;
-        max-height: 400px;
+        max-height: 350px;
     }
 
 }
