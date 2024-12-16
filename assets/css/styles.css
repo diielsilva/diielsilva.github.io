@@ -131,11 +131,11 @@ button {
     -----------------------
  */
 
-.tech-list {
+.skills-list {
     list-style: none;
 }
 
-.tech-item {
+.skill {
     display: inline-block;
     margin: var(--margin);
 }
