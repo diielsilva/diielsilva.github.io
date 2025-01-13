@@ -18,6 +18,15 @@
     border: none;
 }
 
+@keyframes slide-in {
+    from {
+        width: 0
+    }
+    to {
+        width: 100dvw
+    }
+}
+
 body {
     height: 100%;
     display: flex;
@@ -29,6 +38,8 @@ body {
     font-size: min(var(--font-size), 30px);
     text-align: center;
     overflow-x: hidden;
+    animation-name: slide-in;
+    animation-duration: 0.65s;
 }
 
 .container {
