@@ -18,12 +18,13 @@
     border: none;
 }
 
-@keyframes slide-in {
+@keyframes fade-in {
     from {
-        width: 0
+        opacity: 0;
     }
+
     to {
-        width: 100dvw
+        opacity: 1;
     }
 }
 
@@ -38,8 +39,12 @@ body {
     font-size: min(var(--font-size), 30px);
     text-align: center;
     overflow-x: hidden;
-    animation-name: slide-in;
-    animation-duration: 0.65s;
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+ul {
+    list-style: none;
 }
 
 .container {
@@ -145,19 +150,6 @@ body {
     max-width: 45px;
     max-height: 45px;
     padding: 5px;
-}
-
-/*
-    EDUCATION & EXPERIENCE
-    ----------------------
- */
-
-.experience-container {
-
-}
-
-.experience-container ul, li {
-    list-style: none;
 }
 
 /*
