@@ -70,7 +70,6 @@ ul {
     align-items: center;
     padding: var(--primary-padding);
     background: linear-gradient(to right, var(--secondary-color), var(--terciary-color));
-    box-shadow: var(--box-shadow);
     letter-spacing: 5px;
 }
 
@@ -167,7 +166,6 @@ ul {
     margin: var(--primary-margin);
     text-align: center;
     border-radius: var(--radius);
-    box-shadow: var(--box-shadow);
     height: 350px;
     display: flex;
     flex-direction: column;
