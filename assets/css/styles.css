@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #313131;
+    --primary-color: #212121;
     --secondary-color: #793796;
     --terciary-color: #790c96;
     --primary-text: #ffffff;
@@ -51,6 +51,11 @@ ul {
     max-width: 800px;
     padding: var(--primary-padding);
     text-align: center;
+}
+
+.card {
+    padding: var(--primary-padding);
+    margin-bottom: 5px;
 }
 
 .title {
@@ -170,6 +175,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #2c2c2c;
 }
 
 .project img {
