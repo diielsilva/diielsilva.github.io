@@ -1,0 +1,57 @@
+{
+    "projects": [
+        {
+            "title": "Quiz Game",
+            "description": "A game developed with programmers in mind, here you can test your programming knowledgment by answering questions",
+            "image": "assets/images/quiz-game.png",
+            "url": "https://quiz-game-mu-six.vercel.app/",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "TypeScript",
+                "Angular"
+            ]
+        },
+        {
+            "title": "Guess Word Game",
+            "description": "A game where you can guess a word related with programming by guessing the whole word, or you can also guess it char by char",
+            "image": "assets/images/guess-word-game.png",
+            "url": "https://guess-word-game-topaz.vercel.app/",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "TypeScript",
+                "Angular"
+            ]
+        },
+        {
+            "title": "Tic Tac Toe Game",
+            "description": "A tic tac toe where you can play against the computer, because it's boring to play against myself",
+            "image": "assets/images/tic-tac-toe-game.png",
+            "url": "https://tic-tac-toe-game-theta-rose.vercel.app/",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "TypeScript",
+                "Angular"
+            ]
+        },
+        {
+            "title": "Memory Game",
+            "description": "A game where you can find pairs of fruits, maybe i should be healthier",
+            "image": "assets/images/memory-game.png",
+            "url": "https://memory-game-rosy-one.vercel.app/",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "TypeScript",
+                "Angular"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": ""
+        }
+    ]
+}
