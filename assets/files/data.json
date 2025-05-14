@@ -51,7 +51,36 @@
     ],
     "skills": [
         {
-            "name": ""
+            "image": "assets/icons/html-icon.png",
+            "name": "HTML"
+        },
+        {
+            "image": "assets/icons/css-icon.png",
+            "name": "CSS"
+        },
+        {
+            "image": "assets/icons/javascript-programming-language-icon.png",
+            "name": "Javascript"
+        },
+        {
+            "image": "assets/icons/angular-icon.png",
+            "name": "Angular"
+        },
+        {
+            "image": "assets/icons/java-programming-language-icon.png",
+            "name": "Java"
+        },
+        {
+            "image": "assets/icons/spring-boot-icon.png",
+            "name": "Spring Boot"
+        },
+        {
+            "image": "assets/icons/mysql-icon.png",
+            "name": "MySQL"
+        },
+        {
+            "image": "assets/icons/docker-icon.png",
+            "name": "Docker"
         }
     ]
 }
