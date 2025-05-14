@@ -7,6 +7,23 @@ async function getData() {
         .then(response => response.json())
 }
 
+function displaySkills(appState) {
+    const container = document.querySelector("#skill-container")
+    const skills = appState.skills
+    let skillItems = ""
+
+    skills.forEach(item => {
+        skillItems += `
+        <div>
+        <img src="${item.image}"/>
+        <span>${item.name}</span>
+        </div>
+        `
+    })
+
+    render(container, skillItems)
+}
+
 function displaySelectedProject(appState) {
     const container = document.querySelector("#project-container")
     const project = appState.projects[appState.selectedProject]
@@ -57,7 +74,11 @@ function previousProject(appState) {
 
 window.onload = async () => {
     const data = await getData()
-    const appState = { projects: data.projects, selectedProject: 0 }
+    const appState = {
+        skills: data.skills,
+        projects: data.projects,
+        selectedProject: 0
+    }
 
     const nextProjectBtn = document.querySelector("#next-project")
     const previousProjectBtn = document.querySelector("#previous-project")
@@ -70,5 +91,6 @@ window.onload = async () => {
         previousProject(appState)
     }
 
+    displaySkills(appState)
     displaySelectedProject(appState)
 }
