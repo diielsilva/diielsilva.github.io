@@ -17,33 +17,12 @@
 
 <body>
 
-    <!-- Header -->
-    <header class="title-bar">
-
-        <div>
-            <2DEV />
-        </div>
-        <nav class="navbar">
-            <ul>
-                <li>
-                    <a href="https://github.com/diielsilva" target="_blank">
-                        <img class="header-icon" src="assets/icons/github-white-icon.png" alt="Github Logo" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/daniel-silva-bb7516181/" target="_blank">
-                        <img class="header-icon" src="assets/icons/linkedin-app-white-icon.png" alt="LinkedIn Logo" />
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-    </header>
-
     <!-- About Me Section -->
-    <main class="container">
-        <article class="about-me-section">
+    <main class="about-me">
+        <section>
             <h1>Daniel Silva</h1>
+
+            <h2>Fullstack Developer</h2>
 
             <p>
                 Hello, my name's Daniel, I'm a FullStack Web Developer based in Pernambuco, Brazil.
@@ -56,11 +35,22 @@
                 <img class="main-photo" src="assets/images/main-photo.jpg">
             </picture>
 
+            <div class="social-media">
+                <a href="https://github.com/diielsilva" target="_blank">
+                    <img class="social-media-icon" src="assets/icons/github-white-icon.png" alt="Github Logo" />
+                </a>
+
+                <a href="https://www.linkedin.com/in/daniel-silva-bb7516181/" target="_blank">
+                    <img class="social-media-icon" src="assets/icons/linkedin-app-white-icon.png" alt="LinkedIn Logo" />
+                </a>
+            </div>
+
             <a href="assets/files/curriculum.pdf" download="curriculum.pdf">
                 <button class="curriculum-btn">Download Curriculum</button>
             </a>
-        </article>
 
+
+        </section>
     </main>
 
     <!-- Used Technologies Section -->
@@ -138,9 +128,10 @@
 
         <!-- Projects Container -->
         <div class="projects-container">
-            <button id="previous-project"> < </button>
-            <div id="project-container"></div>
-            <button id="next-project"> > </button>
+            <button id="previous-project">
+                < </button>
+                    <div id="project-container"></div>
+                    <button id="next-project"> > </button>
         </div>
     </section>
 
