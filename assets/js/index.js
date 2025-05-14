@@ -15,8 +15,7 @@ function displaySkills(appState) {
     skills.forEach(item => {
         skillItems += `
         <div>
-        <img src="${item.image}"/>
-        <span>${item.name}</span>
+        <img src="${item.image}" title="${item.name}"/>
         </div>
         `
     })
