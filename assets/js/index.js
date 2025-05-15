@@ -53,18 +53,15 @@ function displaySelectedProject(appState) {
     })
 
     const projectCard = `
-        <article class="project">
-            <img class="project-picture" src="${project.image}">
+        <a href="${project.url}" target="_blank">
+        <article>
+            <img src="${project.image}">
             <p>${project.description}</p>
             <ul>
                 ${projectTechnologies}
             </ul>
-            <div class="project-footer">
-                <a href="${project.url}">
-                    <button class="access-project-button">Access</button>
-                </a>
-            </div>
         </article>
+        </a>
     `
 
     render(container, projectCard)
