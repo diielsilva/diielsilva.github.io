@@ -23,6 +23,26 @@ function displaySkills(appState) {
     render(container, skillItems)
 }
 
+function displayExperiences(appState) {
+    const container = document.querySelector("#experience-container")
+    let experiences = ""
+
+    appState.experiences.forEach(experience => {
+        experiences += `
+            <li>
+            <div>
+                <h3>${experience.job}</h3>
+                <h4>At ${experience.company}, ${experience.start} - ${experience.end}</h4>
+                <p>${experience.description}</p>
+            </div>
+            </li>
+        `
+    })
+
+    render(container, experiences)
+
+}
+
 function displaySelectedProject(appState) {
     const container = document.querySelector("#project-container")
     const project = appState.projects[appState.selectedProject]
@@ -75,6 +95,7 @@ window.onload = async () => {
     const data = await getData()
     const appState = {
         skills: data.skills,
+        experiences: data.experiences,
         projects: data.projects,
         selectedProject: 0
     }
@@ -91,5 +112,6 @@ window.onload = async () => {
     }
 
     displaySkills(appState)
+    displayExperiences(appState)
     displaySelectedProject(appState)
 }
