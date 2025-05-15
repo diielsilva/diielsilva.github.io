@@ -82,5 +82,51 @@
             "image": "assets/icons/docker-icon.png",
             "name": "Docker"
         }
+    ],
+    "experiences": [
+        {
+            "job": "Freelance Fullstack Developer",
+            "company": "MINHA MAKE",
+            "start": "03/2024",
+            "end": "Present",
+            "description": "I'm in charge to keep a fullstack application developed by me to help the customer tracks his stock, sales, sellers, and to generate reports.",
+            "technologies": [
+                "Angular",
+                "PrimeNG",
+                "CSS",
+                "Spring Boot",
+                "JUnit",
+                "MySQL",
+                "Docker",
+                "Linux",
+                "VPS"
+            ]
+        },
+        {
+            "job": "Junior Backend Developer",
+            "company": "OLIXCORP LTDA",
+            "start": "01/2022",
+            "end": "06/2024",
+            "description": "I was responsible for migrate legacy modules of the ANSERJUFE's system to actual technologies, improving the application performance and developer experience.",
+            "technologies": [
+                "Spring Boot",
+                "Spring JPA",
+                "JUnit",
+                "MySQL",
+                "Docker"
+            ]
+        },
+        {
+            "job": "Trainee Backend Developer",
+            "company": "OLIXCORP LTDA",
+            "start": "01/2021",
+            "end": "12/2021",
+            "description": "I was responsible for develop the backend of an attendance system to Modalatta Corpus, helping them to schedule appointments.",
+            "technologies": [
+                "Spring Boot",
+                "MySQL",
+                "Docker"
+            ]
+        }
     ]
 }
