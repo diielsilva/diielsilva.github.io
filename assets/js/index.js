@@ -14,9 +14,11 @@ function displaySkills(appState) {
 
     skills.forEach(item => {
         skillItems += `
+        <li>
         <div>
         <img src="${item.image}" title="${item.name}"/>
         </div>
+        </li>
         `
     })
 
