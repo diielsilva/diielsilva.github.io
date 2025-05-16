@@ -1,0 +1,132 @@
+{
+    "projects": [
+        {
+            "title": "Quiz Game",
+            "description": "A game developed with programmers in mind, here you can test your programming knowledgment by answering questions",
+            "image": "assets/images/quiz-game.png",
+            "url": "https://quiz-game-mu-six.vercel.app/",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "TypeScript",
+                "Angular"
+            ]
+        },
+        {
+            "title": "Guess Word Game",
+            "description": "A game where you can guess a word related with programming by guessing the whole word, or you can also guess it char by char",
+            "image": "assets/images/guess-word-game.png",
+            "url": "https://guess-word-game-topaz.vercel.app/",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "TypeScript",
+                "Angular"
+            ]
+        },
+        {
+            "title": "Tic Tac Toe Game",
+            "description": "A tic tac toe where you can play against the computer, because it's boring to play against myself",
+            "image": "assets/images/tic-tac-toe-game.png",
+            "url": "https://tic-tac-toe-game-theta-rose.vercel.app/",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "TypeScript",
+                "Angular"
+            ]
+        },
+        {
+            "title": "Memory Game",
+            "description": "A game where you can find pairs of fruits, maybe i should be healthier",
+            "image": "assets/images/memory-game.png",
+            "url": "https://memory-game-rosy-one.vercel.app/",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "TypeScript",
+                "Angular"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "image": "assets/icons/html-icon.png",
+            "name": "HTML"
+        },
+        {
+            "image": "assets/icons/css-icon.png",
+            "name": "CSS"
+        },
+        {
+            "image": "assets/icons/javascript-programming-language-icon.png",
+            "name": "Javascript"
+        },
+        {
+            "image": "assets/icons/angular-icon.png",
+            "name": "Angular"
+        },
+        {
+            "image": "assets/icons/java-programming-language-icon.png",
+            "name": "Java"
+        },
+        {
+            "image": "assets/icons/spring-boot-icon.png",
+            "name": "Spring Boot"
+        },
+        {
+            "image": "assets/icons/mysql-icon.png",
+            "name": "MySQL"
+        },
+        {
+            "image": "assets/icons/docker-icon.png",
+            "name": "Docker"
+        }
+    ],
+    "experiences": [
+        {
+            "job": "Freelance Fullstack Developer",
+            "company": "MINHA MAKE",
+            "start": "03/2024",
+            "end": "Present",
+            "description": "I'm in charge to keep a fullstack application developed by me to help the customer tracks his stock, sales, sellers, and to generate reports.",
+            "technologies": [
+                "Angular",
+                "PrimeNG",
+                "CSS",
+                "Spring Boot",
+                "JUnit",
+                "MySQL",
+                "Docker",
+                "Linux",
+                "VPS"
+            ]
+        },
+        {
+            "job": "Junior Backend Developer",
+            "company": "OLIXCORP LTDA",
+            "start": "01/2022",
+            "end": "06/2024",
+            "description": "I was responsible for migrate legacy modules of the ANSERJUFE's system to actual technologies, improving the application performance and developer experience.",
+            "technologies": [
+                "Spring Boot",
+                "Spring JPA",
+                "JUnit",
+                "MySQL",
+                "Docker"
+            ]
+        },
+        {
+            "job": "Trainee Backend Developer",
+            "company": "OLIXCORP LTDA",
+            "start": "01/2021",
+            "end": "12/2021",
+            "description": "I was responsible for develop the backend of an attendance system to Modalatta Corpus, helping them to schedule appointments.",
+            "technologies": [
+                "Spring Boot",
+                "MySQL",
+                "Docker"
+            ]
+        }
+    ]
+}

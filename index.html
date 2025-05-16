@@ -7,193 +7,80 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <title><2DEV/></title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <script src="assets/js/index.js"></script>
+    <title>
+        <2DEV />
+    </title>
 </head>
 
 <body>
 
-<!-- Header -->
-<header class="title-bar">
+    <!-- About Me Section -->
+    <main class="about-me">
+        <section>
+            <h1>Daniel Silva</h1>
 
-    <div><2DEV/></div>
-    <nav class="navbar">
-        <ul>
-            <li>
+            <h2>Fullstack Developer</h2>
+
+            <p>
+                Hello, my name's Daniel, I'm a FullStack Web Developer based in Pernambuco, Brazil.
+                With a year+ of experience focused on Backend development using Java, Spring and MySQL.
+                My current focus is improving my acknowledgment in DSA, SQL, and of course, improve my English skills.
+                During my free time, I like to read books and mangas, watch some anime and solve LeetCode problems.
+            </p>
+
+            <picture>
+                <img class="main-photo" src="assets/images/main-photo.jpg">
+            </picture>
+
+            <div class="social-media">
                 <a href="https://github.com/diielsilva" target="_blank">
-                    <img class="header-icon" src="assets/icons/github-white-icon.png" alt="Github Logo"/>
+                    <img class="social-media-icon" src="assets/icons/github-white-icon.png" alt="Github Logo" />
                 </a>
-            </li>
-            <li>
+
                 <a href="https://www.linkedin.com/in/daniel-silva-bb7516181/" target="_blank">
-                    <img class="header-icon" src="assets/icons/linkedin-app-white-icon.png" alt="LinkedIn Logo"/>
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-</header>
-
-<!-- About Me Section -->
-<main class="container">
-    <article class="about-me-section">
-        <h1>Daniel Silva</h1>
-
-        <p>
-            Hello, my name's Daniel, I'm a FullStack Web Developer based in Pernambuco, Brazil.
-            With a year+ of experience focused on Backend development using Java, Spring and MySQL.
-            My current focus is improving my acknowledgment in DSA, SQL, and of course, improve my English skills.
-            During my free time, I like to read books and mangas, watch some anime and solve LeetCode problems.
-        </p>
-
-        <picture>
-            <img class="main-photo" src="assets/images/main-photo.jpg">
-        </picture>
-
-        <a href="assets/files/curriculum.pdf" download="curriculum.pdf">
-            <button class="curriculum-btn">Download Curriculum</button>
-        </a>
-    </article>
-
-</main>
-
-<!-- Used Technologies Section -->
-<section class="container">
-
-    <!-- Main Technologies Container -->
-    <article>
-        <h2 class="title">Skills</h2>
-
-        <ul class="skills-list">
-            <li class="skill" title="HTML 5">
-                <img class="skill-icon" src="assets/icons/html-icon.png" alt="HTML Logo"/>
-            </li>
-
-            <li class="skill" title="CSS 3">
-                <img class="skill-icon" src="assets/icons/css-icon.png" alt="CSS Logo"/>
-            </li>
-
-            <li class="skill" title="Javascript">
-                <img class="skill-icon" src="assets/icons/javascript-programming-language-icon.png"
-                     alt="JS Logo"/>
-            </li>
-
-            <li class="skill" title="Angular">
-                <img class="skill-icon" src="assets/icons/angular-icon.png" alt="Angular Logo"/>
-            </li>
-
-            <li class="skill" title="Java">
-                <img class="skill-icon" src="assets/icons/java-programming-language-icon.png"
-                     alt="Java Logo"/>
-            </li>
-            <li class="skill" title="Spring">
-                <img class="skill-icon" src="assets/icons/spring-boot-icon.png" alt="Spring Logo"/>
-            </li>
-
-            <li class="skill" title="MySQL">
-                <img class="skill-icon" src="assets/icons/mysql-icon.png" alt="MySQL Logo"/>
-            </li>
-
-
-            <li class="skill" title="Docker">
-                <img class="skill-icon" src="assets/icons/docker-icon.png" alt="Docker Logo"/>
-            </li>
-        </ul>
-
-    </article>
-
-</section>
-
-<section class="container">
-    <h2 class="title">Education</h2>
-
-    <ul>
-        <li class="card">
-            Bachelor of System Information - UNIFACOL, 2016 - 2021
-        </li>
-    </ul>
-
-</section>
-
-<section class="container">
-    <h2 class="title">Experience</h2>
-    <ul>
-        <li class="card">Development Internship - MINHA MAKE, 2021 - 2021</li>
-        <li class="card">
-            Trainee Backend Developer - OLIXCORP, 2021 - 2022
-        </li>
-        <li class="card">
-            Junior Backend Developer - OLIXCORP, 2022 - September 2024
-        </li>
-    </ul>
-</section>
-
-<!-- Projects Section-->
-<section class="container">
-    <h2 class="title">Projects</h2>
-
-    <!-- Projects Container -->
-    <div class="projects-container">
-
-        <!-- Project Quiz-->
-        <article class="project">
-            <picture>
-                <img class="project-picture" src="assets/images/quiz-game.png" alt="Quiz Game Sample">
-            </picture>
-            <p> A Quiz Game containing questions about programming and tech.</p>
-
-            <div class="project-footer">
-                <a href="https://quiz-game-mu-six.vercel.app/" target="_blank">
-                    <button class="access-project-button">Access</button>
+                    <img class="social-media-icon" src="assets/icons/linkedin-app-white-icon.png" alt="LinkedIn Logo" />
                 </a>
             </div>
 
-        </article>
+            <a href="assets/files/curriculum.pdf" download="curriculum.pdf">
+                <button class="curriculum-btn">Download Curriculum</button>
+            </a>
 
-        <!-- Project Guess Word-->
-        <article class="project">
-            <picture>
-                <img class="project-picture" src="assets/images/guess-word-game.png" alt="Guess Word Game Sample">
-            </picture>
-            <p> A Guess Word Game containing questions about programming and tech.</p>
 
-            <div class="project-footer">
-                <a href="https://guess-word-game-topaz.vercel.app/" target="_blank">
-                    <button class="access-project-button">Access</button>
-                </a>
+        </section>
+    </main>
+
+    <!-- Used Technologies Section -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <p>These are the skills that were used by me during my professional career.</p>
+        <ul id="skill-container"></ul>
+    </section>
+
+    <section class="experiences">
+        <h2>My Experiences</h2>
+        <ul id="experience-container"></ul>
+    </section>
+
+    <!-- Projects Section-->
+    <section class="projects">
+        <h2>My Projects</h2>
+
+        <!-- Projects Container -->
+        <div class="projects-container">
+            <div>
+                <button id="previous-project">
+                    < </button>
+                        <button id="next-project"> > </button>
             </div>
 
-        </article>
+            <div id="project-container"></div>
 
-        <article class="project">
-            <picture>
-                <img class="project-picture" src="assets/images/tic-tac-toe-game.png" alt="Tic Tac Toe Game Sample">
-            </picture>
-            <p> A Tic Tac Toe Game that allows you to play against the CPU</p>
-
-            <div class="project-footer">
-                <a href="https://tic-tac-toe-game-theta-rose.vercel.app/" target="_blank">
-                    <button class="access-project-button">Access</button>
-                </a>
-            </div>
-
-        </article>
-
-        <article class="project">
-            <picture>
-                <img class="project-picture" src="assets/images/memory-game.png" alt="Memory Game Sample">
-            </picture>
-            <p>A colorful and healthy Memory Game </p>
-
-            <div class="project-footer">
-                <a href="https://memory-game-rosy-one.vercel.app/" target="_blank">
-                    <button class="access-project-button">Access</button>
-                </a>
-            </div>
-        </article>
-
-    </div>
-</section>
+        </div>
+    </section>
 
 </body>
 
